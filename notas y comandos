@@ -1,0 +1,17 @@
+Para usuarios y Citas
+La llave primaria de usuario pasa a ser foranea en citas
+
+Para usuarios y EPS
+La llave primaria de EPS pasa a ser foranea en usuario
+
+Para medico y Citas
+la llave primaria de medico pasa a ser foranea en Citas
+
+Para medicos y sede
+
+La llave primaria de sede pasa a ser foranea en medico
+
+----------------COMANDOS----------------
+
+php artisan make:model <nombre> <options>
+-mcrf -> migracion + controlador con recurso + facotry  ==== CRUD
